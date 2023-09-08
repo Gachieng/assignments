@@ -1,12 +1,23 @@
 body {
     padding: 0;
-    margin: 200px;
+    margin-left: 200px;
     bottom: 0;
     width: 840px;
    
 
 }
+img {
 
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    
+
+  }
+  .image {
+    text-align:center;
+  }
 .my-resume {
     width: 840px;
     display: flex;
@@ -18,6 +29,7 @@ body {
     width: 840px;
     height:auto;
     justify-content: space-between;
+   
     
 }
 
@@ -32,6 +44,7 @@ body {
     font-family: Georgia;
     font-weight: regular;
     font-style: normal;
+    line-height: 0;
     
     
    
@@ -56,5 +69,126 @@ body {
     font-size: 14px;
     font-family: Georgia;
     font-weight: regular;
-   
+   line-height: 25px;
+   word-spacing: 2%;
+
+}
+
+.title {
+    
+    font-size: 14px;
+    font-family: Georgia;
+    font-weight: 500px; 
+    color: #6e6969;
+}
+
+.skills-a {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    font-size: 14px;
+    font-family: Georgia;
+    font-weight: normal;
+    padding-bottom: 0;
+    line-height: 0;
+}
+
+.title2 {
+    font-size: 14px;
+    font-family: Georgia;
+    font-weight: regular;
+    color: #6e6969;
+    
+     
+}
+.skills-b {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    font-size: 14px;
+    font-family: Georgia;
+    font-weight: regular;
+    padding-bottom: 0;
+    line-height: 0;
+}
+.experience1 {
+    display: flex;
+    flex-direction: row;
+    gap: 605px;
+    font-size: 14px;
+    font-family: Georgia;
+    font-weight: regular;
+    line-height: 0;
+}
+
+.experience2 {
+    display: flex;
+    flex-direction: row;
+    gap: 605px;
+    font-size: 14px;
+    font-family: Georgia;
+    font-weight: regular;
+    line-height: 0;
+}
+.company {
+    font-size: 16px;
+    color: #6e6969;
+    font-family: Georgia;
+    
+}
+
+.location {
+    font-size: 16px;
+    color: #6e6969;
+    font-family: Georgia;
+    text-align: right;
+}
+
+.dates {
+    font-size: 16px;
+    color: #6e6969;
+    font-family: Georgia;
+    text-align: right; 
+}
+
+
+.experience5 {
+    display: flex;
+    flex-direction: row;
+    gap: 605px;
+    font-size: 14px;
+    font-family: Georgia;
+    font-weight: regular;
+    line-height: 0;
+
+}
+
+.experience4 {
+    display: flex;
+    flex-direction: row;
+    gap: 605px;
+    font-size: 14px;
+    font-family: Georgia;
+    font-weight: regular;
+    line-height: 0;
+}
+
+.school {
+    display: flex;
+    flex-direction: row;
+    gap: 605px;
+    font-size: 14px;
+    font-family: Georgia;
+    font-weight: regular;
+    line-height: 0;
+}
+
+.school2 {
+    display: flex;
+    flex-direction: row;
+    gap: 580px;
+    font-size: 14px;
+    font-family: Georgia;
+    font-weight: regular;
+    line-height: 0;
 }
